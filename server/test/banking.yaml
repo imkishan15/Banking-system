@@ -1,0 +1,14 @@
+id: banking-server-test
+
+meta:
+  name: Getting user-list for banking
+
+test:
+  - request:
+      method: GET
+      url: http://127.0.0.1:8000/users
+    assert:
+      - key: resp.status
+        value: 200
+
+ 

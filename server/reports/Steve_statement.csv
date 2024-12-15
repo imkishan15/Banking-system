@@ -1,0 +1,31 @@
+Reason,Deposit,Withdrawal,Balance,Time
+Made deposit,1000.0,-,1000.0,12:34 PM 23 October 24
+Made withdrawal,-,100.0,900.0,12:41 PM 23 October 24
+Transferred to Steve,-,200.0,500.0,12:44 PM 23 October 24
+Transferred to Steve,-,200.0,100.0,11:25 AM 11 November 24
+Made withdrawal,-,50.0,50.0,06:05 PM 12 November 24
+Made deposit,150.0,-,200.0,12:12 PM 13 November 24
+Transferred to Steve,-,100.0,100.0,12:26 PM 13 November 24
+Received from Tim,200.0,-,300.0,12:46 PM 13 November 24
+Transferred to Steve,-,100.0,200.0,01:14 PM 13 November 24
+Made withdrawal,-,50.0,150.0,11:41 AM 18 November 24
+Made deposit,100.0,-,250.0,08:17 PM 20 November 24
+Made deposit,100.0,-,350.0,12:14 PM 22 November 24
+Made withdrawal,-,100.0,250.0,12:14 PM 22 November 24
+Made withdrawal,-,50.0,200.0,12:35 PM 22 November 24
+Made withdrawal,-,50.0,150.0,12:43 PM 22 November 24
+Made withdrawal,-,50.0,100.0,12:47 PM 22 November 24
+Made withdrawal,-,10.0,90.0,12:27 PM 23 November 24
+Made deposit,1100.0,-,1190.0,12:30 PM 23 November 24
+Made withdrawal,-,60.0,1130.0,12:34 PM 23 November 24
+Made withdrawal,-,30.0,1100.0,12:37 PM 23 November 24
+Made withdrawal,-,30.0,1070.0,12:39 PM 23 November 24
+Made withdrawal,-,70.0,1000.0,12:49 PM 23 November 24
+Made deposit,500.0,-,1500.0,12:17 AM 24 November 24
+Made withdrawal,-,600.0,900.0,12:18 AM 24 November 24
+Made withdrawal,-,100.0,800.0,12:28 AM 24 November 24
+Made withdrawal,-,100.0,700.0,12:29 AM 24 November 24
+Transferred to Steve,-,90.0,610.0,12:04 PM 25 November 24
+Transferred to Steve,-,70.0,540.0,05:09 PM 27 November 24
+Transferred to Steve,-,40.0,500.0,05:38 PM 27 November 24
+Made deposit,800.0,-,1300.0,11:26 AM 06 December 24

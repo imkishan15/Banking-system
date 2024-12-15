@@ -1,0 +1,10 @@
+Reason,Deposit,Withdrawal,Balance,Time
+Received from Steve,200.0,-,200.0,12:44 PM 23 October 24
+Received from Steve,200.0,-,400.0,11:25 AM 11 November 24
+Made withdrawal,-,200.0,200.0,06:04 PM 12 November 24
+Made withdrawal,-,50.0,150.0,12:01 PM 13 November 24
+Made deposit,200.0,-,350.0,12:12 PM 13 November 24
+Made deposit,400.0,-,750.0,12:44 PM 13 November 24
+Transferred to Tim,-,150.0,450.0,12:44 PM 13 November 24
+Transferred to Tim,-,200.0,50.0,12:46 PM 13 November 24
+Received from Steve,100.0,-,150.0,01:14 PM 13 November 24

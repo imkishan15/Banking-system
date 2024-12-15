@@ -1,0 +1,755 @@
+[
+  {
+    "id": 1,
+    "name": "James",
+    "email": "james@gmail.com",
+    "balance": 0.0,
+    "transactions": []
+  },
+  {
+    "id": 2,
+    "name": "Xavier",
+    "balance": 500.0,
+    "transactions": [
+      {
+        "type": "credit",
+        "amount": 100.0,
+        "reason": "Received from Steve",
+        "balance_now": 100.0,
+        "time": "12:26 PM 13 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 150.0,
+        "reason": "Received from Tim",
+        "balance_now": 250.0,
+        "time": "12:44 PM 13 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 200.0,
+        "time": "12:46 PM 18 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 150.0,
+        "time": "01:00 PM 18 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 50.0,
+        "reason": "Made deposit",
+        "balance_now": 200.0,
+        "time": "01:03 PM 18 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 500.0,
+        "reason": "Made deposit",
+        "balance_now": 700.0,
+        "time": "12:24 AM 24 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Made withdrawal",
+        "balance_now": 600.0,
+        "time": "12:34 AM 24 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Made withdrawal",
+        "balance_now": 500.0,
+        "time": "03:14 PM 28 November 24"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Kyle",
+    "balance": 300.0,
+    "transactions": [
+      {
+        "type": "credit",
+        "amount": 200.0,
+        "reason": "Made deposit",
+        "balance_now": 200.0,
+        "time": "12:54 PM 06 December 24"
+      },
+      {
+        "type": "credit",
+        "amount": 100.0,
+        "reason": "Made deposit",
+        "balance_now": 300.0,
+        "time": "02:14 PM 06 December 24"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Steve",
+    "balance": 1500.0,
+    "transactions": [
+      {
+        "type": "credit",
+        "amount": 1000.0,
+        "reason": "Made deposit",
+        "balance_now": 1000.0,
+        "time": "12:34 PM 23 October 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Made withdrawal",
+        "balance_now": 900.0,
+        "time": "12:41 PM 23 October 24"
+      },
+      {
+        "type": "debit",
+        "amount": 200.0,
+        "reason": "Transferred to Steve",
+        "balance_now": 500.0,
+        "time": "12:44 PM 23 October 24"
+      },
+      {
+        "type": "debit",
+        "amount": 200.0,
+        "reason": "Transferred to Steve",
+        "balance_now": 100.0,
+        "time": "11:25 AM 11 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 50.0,
+        "time": "06:05 PM 12 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 150.0,
+        "reason": "Made deposit",
+        "balance_now": 200.0,
+        "time": "12:12 PM 13 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Transferred to Steve",
+        "balance_now": 100.0,
+        "time": "12:26 PM 13 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 200.0,
+        "reason": "Received from Tim",
+        "balance_now": 300.0,
+        "time": "12:46 PM 13 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Transferred to Steve",
+        "balance_now": 200.0,
+        "time": "01:14 PM 13 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 150.0,
+        "time": "11:41 AM 18 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 100.0,
+        "reason": "Made deposit",
+        "balance_now": 250.0,
+        "time": "08:17 PM 20 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 100.0,
+        "reason": "Made deposit",
+        "balance_now": 350.0,
+        "time": "12:14 PM 22 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Made withdrawal",
+        "balance_now": 250.0,
+        "time": "12:14 PM 22 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 200.0,
+        "time": "12:35 PM 22 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 150.0,
+        "time": "12:43 PM 22 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 100.0,
+        "time": "12:47 PM 22 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 10.0,
+        "reason": "Made withdrawal",
+        "balance_now": 90.0,
+        "time": "12:27 PM 23 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 1100.0,
+        "reason": "Made deposit",
+        "balance_now": 1190.0,
+        "time": "12:30 PM 23 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 60.0,
+        "reason": "Made withdrawal",
+        "balance_now": 1130.0,
+        "time": "12:34 PM 23 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 30.0,
+        "reason": "Made withdrawal",
+        "balance_now": 1100.0,
+        "time": "12:37 PM 23 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 30.0,
+        "reason": "Made withdrawal",
+        "balance_now": 1070.0,
+        "time": "12:39 PM 23 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 70.0,
+        "reason": "Made withdrawal",
+        "balance_now": 1000.0,
+        "time": "12:49 PM 23 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 500.0,
+        "reason": "Made deposit",
+        "balance_now": 1500.0,
+        "time": "12:17 AM 24 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 600.0,
+        "reason": "Made withdrawal",
+        "balance_now": 900.0,
+        "time": "12:18 AM 24 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Made withdrawal",
+        "balance_now": 800.0,
+        "time": "12:28 AM 24 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Made withdrawal",
+        "balance_now": 700.0,
+        "time": "12:29 AM 24 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 90.0,
+        "reason": "Transferred to Steve",
+        "balance_now": 610.0,
+        "time": "12:04 PM 25 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 70.0,
+        "reason": "Transferred to Steve",
+        "balance_now": 540.0,
+        "time": "05:09 PM 27 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 40.0,
+        "reason": "Transferred to Steve",
+        "balance_now": 500.0,
+        "time": "05:38 PM 27 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 800.0,
+        "reason": "Made deposit",
+        "balance_now": 1300.0,
+        "time": "11:26 AM 06 December 24"
+      },
+      {
+        "type": "credit",
+        "amount": 200.0,
+        "reason": "Received from Tim",
+        "balance_now": 1500.0,
+        "time": "10:51 AM 11 December 24"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tim",
+    "balance": 200.0,
+    "transactions": [
+      {
+        "type": "credit",
+        "amount": 200.0,
+        "reason": "Received from Steve",
+        "balance_now": 200.0,
+        "time": "12:44 PM 23 October 24"
+      },
+      {
+        "type": "credit",
+        "amount": 200.0,
+        "reason": "Received from Steve",
+        "balance_now": 400.0,
+        "time": "11:25 AM 11 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 200.0,
+        "reason": "Made withdrawal",
+        "balance_now": 200.0,
+        "time": "06:04 PM 12 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 150.0,
+        "time": "12:01 PM 13 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 200.0,
+        "reason": "Made deposit",
+        "balance_now": 350.0,
+        "time": "12:12 PM 13 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 400.0,
+        "reason": "Made deposit",
+        "balance_now": 750.0,
+        "time": "12:44 PM 13 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 150.0,
+        "reason": "Transferred to Tim",
+        "balance_now": 450.0,
+        "time": "12:44 PM 13 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 200.0,
+        "reason": "Transferred to Tim",
+        "balance_now": 50.0,
+        "time": "12:46 PM 13 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 100.0,
+        "reason": "Received from Steve",
+        "balance_now": 150.0,
+        "time": "01:14 PM 13 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 100.0,
+        "time": "11:49 AM 18 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 200.0,
+        "reason": "Made deposit",
+        "balance_now": 300.0,
+        "time": "01:06 PM 18 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 200.0,
+        "reason": "Made deposit",
+        "balance_now": 500.0,
+        "time": "01:11 PM 18 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 100.0,
+        "reason": "Made deposit",
+        "balance_now": 600.0,
+        "time": "02:28 PM 18 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 100.0,
+        "reason": "Made deposit",
+        "balance_now": 700.0,
+        "time": "02:32 PM 18 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 100.0,
+        "reason": "Made deposit",
+        "balance_now": 800.0,
+        "time": "02:43 PM 18 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Made withdrawal",
+        "balance_now": 700.0,
+        "time": "02:45 PM 18 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 650.0,
+        "time": "02:50 PM 18 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 600.0,
+        "time": "12:35 PM 20 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Made withdrawal",
+        "balance_now": 500.0,
+        "time": "03:08 PM 20 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Made withdrawal",
+        "balance_now": 400.0,
+        "time": "03:09 PM 20 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 350.0,
+        "time": "03:13 PM 20 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 300.0,
+        "time": "03:14 PM 20 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 250.0,
+        "time": "12:44 PM 22 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 200.0,
+        "time": "12:44 PM 22 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Made withdrawal",
+        "balance_now": 150.0,
+        "time": "12:46 PM 22 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 10.0,
+        "reason": "Made withdrawal",
+        "balance_now": 140.0,
+        "time": "12:51 PM 22 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 10.0,
+        "reason": "Made withdrawal",
+        "balance_now": 130.0,
+        "time": "12:55 PM 22 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 10.0,
+        "reason": "Made withdrawal",
+        "balance_now": 120.0,
+        "time": "12:18 PM 23 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 10.0,
+        "reason": "Made withdrawal",
+        "balance_now": 110.0,
+        "time": "12:24 PM 23 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 10.0,
+        "reason": "Made withdrawal",
+        "balance_now": 100.0,
+        "time": "12:26 PM 23 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 10.0,
+        "reason": "Made withdrawal",
+        "balance_now": 90.0,
+        "time": "12:26 PM 23 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 1000.0,
+        "reason": "Made deposit",
+        "balance_now": 1090.0,
+        "time": "12:19 AM 24 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 90.0,
+        "reason": "Received from Steve",
+        "balance_now": 1180.0,
+        "time": "12:04 PM 25 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 70.0,
+        "reason": "Received from Steve",
+        "balance_now": 1250.0,
+        "time": "05:09 PM 27 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 300.0,
+        "reason": "Transferred to Tim",
+        "balance_now": 950.0,
+        "time": "05:26 PM 27 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 200.0,
+        "reason": "Transferred to Tim",
+        "balance_now": 750.0,
+        "time": "05:27 PM 27 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Transferred to Tim",
+        "balance_now": 650.0,
+        "time": "05:54 PM 27 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 50.0,
+        "reason": "Transferred to Tim",
+        "balance_now": 600.0,
+        "time": "06:06 PM 27 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 200.0,
+        "reason": "Transferred to Tim",
+        "balance_now": 400.0,
+        "time": "10:51 AM 11 December 24"
+      },
+      {
+        "type": "debit",
+        "amount": 200.0,
+        "reason": "Made withdrawal",
+        "balance_now": 200.0,
+        "time": "12:34 PM 15 December 24"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Garry",
+    "balance": 700.0,
+    "transactions": [
+      {
+        "type": "credit",
+        "amount": 800.0,
+        "reason": "Made deposit",
+        "balance_now": 800.0,
+        "time": "02:50 PM 20 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 100.0,
+        "reason": "Made withdrawal",
+        "balance_now": 700.0,
+        "time": "08:01 PM 21 November 24"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ben",
+    "balance": 90.0,
+    "transactions": [
+      {
+        "type": "credit",
+        "amount": 40.0,
+        "reason": "Received from Steve",
+        "balance_now": 40.0,
+        "time": "05:38 PM 27 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 50.0,
+        "reason": "Received from Tim",
+        "balance_now": 90.0,
+        "time": "06:06 PM 27 November 24"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Harry",
+    "balance": 220.0,
+    "transactions": [
+      {
+        "type": "credit",
+        "amount": 100.0,
+        "reason": "Received from Tim",
+        "balance_now": 100.0,
+        "time": "05:54 PM 27 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 120.0,
+        "reason": "Received from Lewis",
+        "balance_now": 220.0,
+        "time": "03:17 PM 28 November 24"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Lewis",
+    "balance": 600.0,
+    "transactions": [
+      {
+        "type": "credit",
+        "amount": 1000.0,
+        "reason": "Made deposit",
+        "balance_now": 1000.0,
+        "time": "11:28 AM 27 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 200.0,
+        "reason": "Transferred to Lewis",
+        "balance_now": 800.0,
+        "time": "06:19 PM 27 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 80.0,
+        "reason": "Made withdrawal",
+        "balance_now": 720.0,
+        "time": "03:15 PM 28 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 120.0,
+        "reason": "Transferred to Lewis",
+        "balance_now": 600.0,
+        "time": "03:17 PM 28 November 24"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Derek",
+    "balance": 500.0,
+    "transactions": [
+      {
+        "type": "credit",
+        "amount": 300.0,
+        "reason": "Received from Tim",
+        "balance_now": 300.0,
+        "time": "05:26 PM 27 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 200.0,
+        "reason": "Received from Tim",
+        "balance_now": 500.0,
+        "time": "05:27 PM 27 November 24"
+      },
+      {
+        "type": "credit",
+        "amount": 200.0,
+        "reason": "Received from Lewis",
+        "balance_now": 700.0,
+        "time": "06:19 PM 27 November 24"
+      },
+      {
+        "type": "debit",
+        "amount": 200.0,
+        "reason": "Made withdrawal",
+        "balance_now": 500.0,
+        "time": "10:57 AM 28 November 24"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Samuel",
+    "balance": 0.0,
+    "transactions": []
+  },
+  {
+    "id": 13,
+    "name": "Marcus",
+    "balance": 0.0,
+    "transactions": []
+  },
+  {
+    "id": 14,
+    "name": "Finn",
+    "balance": 0.0,
+    "transactions": []
+  }
+]
