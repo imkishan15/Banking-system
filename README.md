@@ -27,5 +27,3 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
-
-git remote set-url origin https://imkishan15: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@github.com/KishanPatel1508/Banking-system.git
